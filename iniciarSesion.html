@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title> ThunderShop </title>
+    <link rel="stylesheet" href="css/iniciarSesion.css">
+    <link rel="shortcut icon" href="assets/img/Logo.svg" type="image/x-icon">
+</head>
+
+<body>
+    <header id="menu">
+        <a id="logo" href="index.html">
+            <svg viewBox="0 0 400 200" xmlns="http://www.w3.org/2000/svg" xmlns:c2pa="http://c2pa.org/manifest">
+                <polygon points="70,90 250,140 250,105 390,145 180,20 180,75" fill="#FFFFFF" />
+            </svg>
+        </a>
+        <h1 id="titulo">ThunderShop</h1>
+        <section id="iconosUsuario">
+            <a href="carrito.html">🛒</a>
+        </section>
+    </header>
+    <nav id="barraNavegacion">
+        <a href="index.html">Página Principal</a>
+    </nav>
+    <main id="principal">
+        <form id="iniciarSesion" method="post">
+            <div id="tituloIniciarSesion">
+                <h2>Iniciar Sesión</h2>
+            </div>
+            <label for="nombreUsuario">Nombre</label>
+            <input id="nombreUsuario" name="nombreUsuario" type="text" maxlength="25" minlength="4" autofocus placeholder="Ingrese el Nombre" required>
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" required placeholder="Ingrese su Email">
+            <label for="numeroTelefono">N° de Teléfono</label>
+            <input id="numeroTelefono" name="numeroTelefono" type="tel" required placeholder="Ingrese su N° de teléfono">
+            <button type="submit">Subir</button>
+        </form>
+    </main>
+    <footer id="piePagina">
+        <p>&copy; ThunderShop. Todos los derechos reservados</p>
+    </footer>
+    <section id="anuncioQuitarProducto">
+
+    </section>
+    <script src="js/quitarComprarProductoCarrito.js"></script>
+    <script src=""></script>
+</body>
+
+</html>
